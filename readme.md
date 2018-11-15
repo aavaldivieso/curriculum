@@ -46,3 +46,5 @@ De esta forma, eliminamos la información del repositorio que clonamos y creamos
 
 
 # curriculum
+# curriculum
+# curriculum
