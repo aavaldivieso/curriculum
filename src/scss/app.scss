@@ -16,6 +16,55 @@
 	}
 }
 
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	float: left;
+}
+.col-md-1{,
+	width: 8.3%;
+	margin-left: 1vw;
+}
+.col-md-2{
+	width: 16.6%;
+	margin-left: 1vw;
+}
+.col-md-3{
+	width: 24.9%;
+	margin-left: 1vw;
+}
+.col-md-4{
+	width: 33.2%;
+	margin-left: 1vw;
+	font-size: 0.9rem;
+}
+.col-md-5{
+	width: 41.5%;
+	margin-left: 1vw;
+	font-size: 0.9rem;
+}
+.col-md-6{
+	width: 49.8%;
+}
+.col-md-7{
+	width: 58.1%;
+}
+.col-md-8{
+	width: 66.4%;
+}
+.col-md-9{
+	width: 74.7%;
+}
+.col-md-10{
+	width: 83%;
+}
+.col-md-11{
+	width: 91.3%;
+}
+.col-md-12{
+	width: 99.6%;
+}
+
+
 body {
 	background: white;
 	font-size: 30px;
@@ -23,7 +72,7 @@ body {
 
 .container {
 	background: rgba(190,180,150,0.8);
-	width: 98vw;
+	width: 82vw;
 	height: 30vh;
 	float: left;
 	border-radius: 6px;
@@ -32,7 +81,7 @@ body {
 	p {
 		width: 40vw;
 		font-size: 0.9rem;
-		margin-left: 100px;
+		margin-left: 190px;
 		margin-top: 4px;
 		float: left;
 	}
@@ -41,7 +90,7 @@ body {
 		color: rgba(210,180,150,1);
 		width: 40vw;
 		font-size: 1.3rem;
-		margin-left: 100px;
+		margin-left: 190px;
 		margin-top: 4px;
 		float: left;
 	}
@@ -60,7 +109,7 @@ body {
 	}
 .mini-container {
 	background-color: white;
-	width: 96vw;
+	width: 80vw;
 	height: 25vh;
 	border-radius: 6px;
 	float: left;

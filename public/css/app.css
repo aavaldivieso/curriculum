@@ -1,63 +1,19 @@
-@media (max-width: 480px) {
-  .left {
-    display: none;
-  }
+@media (max-width: 480px){
+	.left{
+		display: none;
+	}
 }
 
-body {
-  background: white;
-  font-size: 30px;
+@media (min-width: 481px) and (max-width: 768px){
+	.left{
+
+	}
 }
 
-.container {
-  background: rgba(190, 180, 150, 0.8);
-  width: 82vw;
-  height: 30vh;
-  float: left;
-  border-radius: 6px;
-}
+@media (min-width: 769px){
+	.left{
 
-p {
-  width: 40vw;
-  font-size: 0.9rem;
-  margin-left: 100px;
-  margin-top: 4px;
-  float: left;
-}
-
-h4 {
-  color: #d2b496;
-  width: 40vw;
-  font-size: 1.3rem;
-  margin-left: 190px;
-  margin-top: 4px;
-  float: left;
-}
-
-h6 {
-  width: 90vw;
-  font-size: 1rem;
-  margin-left: 7.5vw;
-  margin-right: 5vw;
-  margin-top: 4px;
-  float: left;
-}
-
-span {
-  font-weight: bold;
-}
-
-.mini-container {
-  background-color: white;
-  width: 80vw;
-  height: 25vh;
-  border-radius: 6px;
-  float: left;
-  margin: 15px;
-}
-
-.img-responsive {
-  max-width: 82vw;
+	}
 }
 
 
@@ -79,6 +35,7 @@ span {
 .col-md-4{
 	width: 33.2%;
 	margin-left: 1vw;
+	font-size: 0.9rem;
 }
 .col-md-5{
 	width: 41.5%;
@@ -87,29 +44,78 @@ span {
 }
 .col-md-6{
 	width: 49.8%;
-	margin-left: 1vw;
 }
 .col-md-7{
 	width: 58.1%;
-	margin-left: 1vw;
 }
 .col-md-8{
 	width: 66.4%;
-	margin-left: 1vw;
 }
 .col-md-9{
 	width: 74.7%;
-	margin-left: 1vw;
 }
 .col-md-10{
 	width: 83%;
-	margin-left: 1vw;
 }
 .col-md-11{
 	width: 91.3%;
-	margin-left: 1vw;
 }
 .col-md-12{
 	width: 99.6%;
-	margin-left: 1vw;
+}
+
+
+body {
+	background: white;
+	font-size: 30px;
+}
+
+.container {
+	background: rgba(190,180,150,0.8);
+	width: 82vw;
+	height: 30vh;
+	float: left;
+	border-radius: 6px;
+	}
+
+	p {
+		width: 40vw;
+		font-size: 0.9rem;
+		margin-left: 100px;
+		margin-top: 4px;
+		float: left;
+	}
+
+	h4{
+		color: rgba(210,180,150,1);
+		width: 40vw;
+		font-size: 1.3rem;
+		margin-left: 100px;
+		margin-top: 4px;
+		float: left;
+	}
+
+	h6{
+		width: 90vw;
+		font-size: 1rem;
+		margin-left: 7.5vw;
+		margin-right: 5vw;
+		margin-top: 4px;
+		float: left;
+	}
+
+	span{
+		font-weight: bold;
+	}
+.mini-container {
+	background-color: white;
+	width: 80vw;
+	height: 25vh;
+	border-radius: 6px;
+	float: left;
+	margin: 15px;
+}
+
+.img-responsive{
+	max-width: 82vw;
 }
