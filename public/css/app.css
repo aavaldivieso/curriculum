@@ -25,7 +25,7 @@
 }
 .col-md-4{
 	width: 33.2%;
-	margin-left: 1vw;
+	margin-left: 0vw;
 	font-size: 0.9rem;
 }
 .col-md-offset-4{
@@ -232,4 +232,11 @@ body {
 
 .img-responsive2{
 	max-width: 38vw;
+}
+
+.gran-container{
+	background-color: white;
+	height: 200vh;
+	width: 99vw;
+	padding: 50px;
 }
